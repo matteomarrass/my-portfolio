@@ -1,0 +1,52 @@
+//Variables
+$firstColor: #D1FAFF;
+$secondColor: #9BD1E5;
+$thirdColour: #6A8EAE;
+$fourthColour: #57A773;
+$fifthColour: #157145;
+$black: #121212;
+$sansSerif: 'Source Sans Pro', sans-serif;
+$serif: 'PT Serif', serif;
+
+//Universal Style
+h1, h2, h3, h4, h5, h6 {
+    font-family: $sansSerif;
+    color: $firstColor;
+}
+
+p {
+    font-size: 1.4em;
+    font-family: $serif;
+    color: $black;
+    font-weight: 600;
+}
+
+.App, body{
+    background-color: $firstColor;
+    margin: 5% auto;
+    #title{
+        margin: 0;
+        padding: 1em;
+        background-color: $secondColor;
+        text-align: center;
+        
+    }
+    .App-header{
+        display: flex;
+        margin-top: 2%;
+
+    }
+    .App-logo{
+        width: 25%;
+        height: auto;
+        border-radius: .1em;
+        background-color: $secondColor;
+        margin-left: 1%;
+    }
+    .firstDescription{
+        padding: 1em;
+        margin: 1% auto;
+        height: auto;
+        background-color: $thirdColour;
+    }
+}

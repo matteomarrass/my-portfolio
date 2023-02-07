@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #D1FAFF;
+}
+
+p {
+  font-size: 1.4em;
+  font-family: "PT Serif", serif;
+  color: #121212;
+  font-weight: 600;
+}
+
+.App, body {
+  background-color: #D1FAFF;
+  margin: 5% auto;
+}
+.App #title, body #title {
+  margin: 0;
+  padding: 1em;
+  background-color: #9BD1E5;
+  text-align: center;
+}
+.App .App-header, body .App-header {
+  display: flex;
+  margin-top: 2%;
+}
+.App .App-logo, body .App-logo {
+  width: 25%;
+  height: auto;
+  border-radius: 0.1em;
+  background-color: #9BD1E5;
+  margin-left: 1%;
+}
+.App .firstDescription, body .firstDescription {
+  padding: 1em;
+  margin: 1% auto;
+  height: auto;
+  background-color: #6A8EAE;
+}
+
+/*# sourceMappingURL=app.css.map */
