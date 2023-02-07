@@ -1,0 +1,8 @@
+* fare menù iniziale in inglese ed in italiano, mettendo la possibilità di scegliere la lingua prima di entrare nel curriculum
+* linkare direttamente i link dei file di progetto Github nel curriculum
+* realizzarlo a mo di sito intenret con alla fine anche foto di quando suonavo, bisogna creare un contenuto emozionale, molto personale.
+* Scrivere passioni etc.
+* Segnalare separatamente vari documenti per UX part e progetti.
+* Segnalare anche musica preferita che uso per programmare.
+* Fare user persona di un possibile HR
+* Eseguire User Flowing di HR ^
