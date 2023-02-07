@@ -17,8 +17,14 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-size: 1.4em;
     font-family: $serif;
-    color: $black;
-    font-weight: 600;
+    color: $firstColor;
+    font-weight: 500;
+}
+
+button{
+    font-size: 1.5em;
+    font-family: $serif;
+    color: $firstColor;
 }
 
 .App, body{
@@ -28,13 +34,11 @@ p {
         margin: 0;
         padding: 1em;
         background-color: $secondColor;
-        text-align: center;
-        
+        text-align: center; 
     }
     .App-header{
         display: flex;
         margin-top: 2%;
-
     }
     .App-logo{
         width: 25%;
@@ -45,8 +49,24 @@ p {
     }
     .firstDescription{
         padding: 1em;
-        margin: 1% auto;
+        margin: 1% auto 5% 0;
         height: auto;
         background-color: $thirdColour;
+    }
+    #buttonsLanguage{
+        text-align: center;
+        button {
+            background-color: $firstColor;
+            border-radius: 4px;
+            border: none;
+            margin: .6em;
+            color: $thirdColour;
+            transition: .4s;
+        }
+
+        button:hover{
+            background-color: $fifthColour;
+            color: white;
+        }
     }
 }
