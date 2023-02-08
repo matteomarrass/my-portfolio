@@ -1,8 +1,13 @@
+import Navbar from "./Navbar"
+
 const Jobs = () => {
     return(
+        <>
+        <Navbar />
         <section>
-            <h2>Jobs</h2>
+          <h2>JobExperiences</h2>
         </section>
+        </>
     )
 }
 

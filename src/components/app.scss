@@ -69,3 +69,15 @@ button{
         }
     }
 }
+
+//Navbar
+
+nav {
+    background-color: $fifthColour;
+    .link{
+        color: $firstColor;
+    }
+    .active {
+        color: $fourthColour;
+    }
+}

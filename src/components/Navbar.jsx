@@ -1,13 +1,15 @@
 import React from "react";
-import { BrowserRouter, Route, Link } from 'react-dom';
+import { NavLink } from 'react-router-dom';
+import './app.css'
 
 function Navbar(){
     return(
         <nav>
             <ul>
-                <li><Link to='/'></Link>Home</li>
-                <li><Link to='/jobexperiences'></Link>Esperienze Lavorative</li>
-                <li><Link to='/projects'>Progetti</Link></li>
+                <NavLink to='/' className='link'>Cambia Lingua</NavLink>
+                <NavLink to='/homeit' className='link'>Panoramica</NavLink>
+                <NavLink to='/jobs' className='link'>Esperienze Lavorative</NavLink>
+                <NavLink to='/projects' className='link'>Progetti</NavLink>
             </ul>
         </nav>
     );

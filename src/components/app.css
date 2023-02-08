@@ -58,4 +58,14 @@ button {
   color: white;
 }
 
+nav {
+  background-color: #157145;
+}
+nav .link {
+  color: #D1FAFF;
+}
+nav .active {
+  color: #57A773;
+}
+
 /*# sourceMappingURL=app.css.map */

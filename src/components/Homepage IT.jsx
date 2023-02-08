@@ -1,8 +1,13 @@
+import Navbar from "./Navbar";
+
 const HomepageIT = () => {
     return(
+        <>
+        <Navbar/>
         <section>
-            <h2>Homepage Italiano</h2>
+          <h2>Panoramica</h2>
         </section>
+      </>
     )
 }
 
