@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    font-size: 1.4em;
+    font-size: 2em;
     font-family: $serif;
     color: $firstColor;
     font-weight: 500;
@@ -137,7 +137,7 @@ nav {
     display: flex;
     justify-content: space-around;
     .card{
-        background-color: $firstColor;
+        background-color: #fff;
         max-width: 400px;
         max-height: fit-content;
         border: 3px solid $black;
@@ -150,7 +150,7 @@ nav {
     }
     .cardTitle {
         color: $black;
-        background-color: $secondColor;
+        font-style: italic;
         text-align: center;
         padding: .5em;
         border-radius: .2em;        
@@ -164,4 +164,53 @@ nav {
         font-style: italic;
         font-size: 1.3em;
     }
+}
+
+//Passions
+
+.passions{
+    background-color: #fff;
+    .titlePassion {
+        color: $black;
+        font-size: 75px;
+        letter-spacing: .1em;
+        margin: 0 auto;
+        padding: .6em;
+        text-align: center;
+    }
+    .passionIcon{
+        background-color: transparent;
+        text-align: center;
+        img {
+            width: 55%;
+            height: auto;
+            text-align: center;
+        }
+    }
+}
+
+//Footer
+.buttonsEnd{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    .buttonFooter{
+            margin-bottom: 2em;
+            background-color: #fff;
+            text-decoration: none;
+            font-family: $sansSerif;
+            font-size: 2em;
+            border-radius: 4px;
+            border: none;
+            padding: 1em;
+            color: $black;
+            transition: .4s;
+        }
+
+        .buttonFooter:hover{
+            background-color: $fifthColour;
+            color: white;
+            box-shadow: 5px 10px $black;
+
+        }
 }

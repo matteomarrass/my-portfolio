@@ -1,5 +1,9 @@
 import Navbar from "./Navbar";
 import profile2 from './img/profile.png';
+import Music from './img/music.gif'
+import Books from './img/books.gif'
+import Travel from './img/plane.gif'
+import { Link } from "react-router-dom";
 import './app.css'
 
 const HomepageIT = () => {
@@ -46,7 +50,38 @@ const HomepageIT = () => {
             </ul>
 
           </div>
-
+        </section>
+        {/*UpPoints and Down*/}
+        <section className="passions">
+          <h1 className="titlePassion">Ma c'è dell'altro!</h1>
+          <h1 className="titlePassion">Ho anche delle passioni!</h1>
+          {/*Card Passions*/}
+          <section className="cardSection">          
+          <div className="card">
+            <h2 className="cardTitle">Musica</h2>
+            <div className="passionIcon">
+              <img src={Music} alt="music" />
+            </div>
+          </div>
+          <div className="card">
+            <h2 className="cardTitle">Leggere</h2>
+            <div className="passionIcon">
+              <img src={Books} alt="books" />
+            </div>
+          </div>
+          <div className="card">
+            <h2 className="cardTitle">Viaggiare</h2>
+            <div className="passionIcon">
+              <img src={Travel} alt="books" />
+            </div>
+          </div>
+        </section>
+        {/*ChangeZone*/}
+        <h1 className="titlePassion">Ora ho la tua attenzione vero? <br />Vuoi saperne di più?</h1>
+        <div className="buttonsEnd">
+          <Link to='../jobs' className="buttonFooter">Esperienze lavorative</Link>
+          <Link to='../projects' className="buttonFooter">Progetti</Link>        
+        </div>
         </section>
       </>
     )
