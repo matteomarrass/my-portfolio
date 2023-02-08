@@ -28,9 +28,6 @@ button{
 
 .App, body{
     background-color: $fourthColour;
-    #title{
-        color: $firstColor;
-    }
     .App-header{
         display: flex;
         margin: 5% auto;
@@ -75,7 +72,7 @@ nav {
     #titleCurriculum{
         float: left;
         color: $thirdColour;
-        padding: .3em;
+        margin-left: .4em;
     }
     .link{
         color: $fourthColour;
@@ -95,5 +92,76 @@ nav {
         color: $fifthColour;
         border-top: 2px solid $fifthColour;
         border-bottom: 2px solid $fifthColour;
+    }
+}
+
+//Panoramic
+
+.secondProfile{
+    margin: 0;
+    display: flex;
+    img {
+        width: 25%;
+        background-color: $black;
+    }
+    .descriptionHomepage{
+        background-color: #fff;
+        padding: .4em;
+    }
+    #title{
+        color: $black;
+        font-size: 80px;
+        letter-spacing: .1em;
+        margin: 0 auto;
+        padding: .1em;
+    }
+    .jrDev{
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: .10em solid $fifthColour;
+        animation: typing 1.5s steps(40, end),
+            blink .75s step-end 8;
+    }
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+      @keyframes blink{
+        50% { border-color:#fff }};  
+}
+
+//Card Section
+.cardSection{
+    background-color: $black;    
+    padding: 3em;
+    display: flex;
+    justify-content: space-around;
+    .card{
+        background-color: $firstColor;
+        max-width: 400px;
+        max-height: fit-content;
+        border: 3px solid $black;
+        padding: 1em;
+        border-radius: .4em;
+        transition: .4s;
+    }
+    .card:hover{
+        box-shadow: 5px 10px #fff;
+    }
+    .cardTitle {
+        color: $black;
+        background-color: $secondColor;
+        text-align: center;
+        padding: .5em;
+        border-radius: .2em;        
+    }
+
+    ul{
+        padding: 1em;
+    }
+    p, li{
+        color: $black;
+        font-style: italic;
+        font-size: 1.3em;
     }
 }
