@@ -23,43 +23,39 @@ p {
 button{
     font-size: 1.5em;
     font-family: $serif;
-    color: $firstColor;
+    color: $fourthColour;
 }
 
 .App, body{
-    background-color: $firstColor;
-    margin: 5% auto;
+    background-color: $fourthColour;
     #title{
-        margin: 0;
-        padding: 1em;
-        background-color: $secondColor;
-        text-align: center; 
+        color: $firstColor;
     }
     .App-header{
         display: flex;
-        margin-top: 2%;
+        margin: 5% auto;
     }
     .App-logo{
         width: 25%;
         height: auto;
-        border-radius: .1em;
-        background-color: $secondColor;
-        margin-left: 1%;
+        border-radius: .2em;
+        background-color: $thirdColour;
     }
     .firstDescription{
         padding: 1em;
         margin: 1% auto 5% 0;
         height: auto;
-        background-color: $thirdColour;
+        border-radius: .2em;
+        background-color: $black;
     }
     #buttonsLanguage{
         text-align: center;
         button {
-            background-color: $firstColor;
+            background-color: $thirdColour;
             border-radius: 4px;
             border: none;
             margin: .6em;
-            color: $thirdColour;
+            color: $black;
             transition: .4s;
         }
 
@@ -73,11 +69,31 @@ button{
 //Navbar
 
 nav {
-    background-color: $fifthColour;
-    .link{
-        color: $firstColor;
+    background-color: $black;
+    padding: .3em;
+    text-align: end;
+    #titleCurriculum{
+        float: left;
+        color: $thirdColour;
+        padding: .3em;
     }
-    .active {
+    .link{
         color: $fourthColour;
+        margin: 0.5em;
+        text-decoration: none;
+        font-family: $sansSerif;
+        font-size: 1.4em;
+        padding: .4em;
+        transition: .1s;
+    }
+    .link:hover{
+        border-top: 2px solid $fifthColour;
+        border-bottom: 2px solid $fifthColour;
+        color: $fifthColour;
+    }
+    .active{
+        color: $fifthColour;
+        border-top: 2px solid $fifthColour;
+        border-bottom: 2px solid $fifthColour;
     }
 }

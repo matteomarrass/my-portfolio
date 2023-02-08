@@ -12,45 +12,41 @@ p {
 button {
   font-size: 1.5em;
   font-family: "PT Serif", serif;
-  color: #D1FAFF;
+  color: #57A773;
 }
 
 .App, body {
-  background-color: #D1FAFF;
-  margin: 5% auto;
+  background-color: #57A773;
 }
 .App #title, body #title {
-  margin: 0;
-  padding: 1em;
-  background-color: #9BD1E5;
-  text-align: center;
+  color: #D1FAFF;
 }
 .App .App-header, body .App-header {
   display: flex;
-  margin-top: 2%;
+  margin: 5% auto;
 }
 .App .App-logo, body .App-logo {
   width: 25%;
   height: auto;
-  border-radius: 0.1em;
-  background-color: #9BD1E5;
-  margin-left: 1%;
+  border-radius: 0.2em;
+  background-color: #6A8EAE;
 }
 .App .firstDescription, body .firstDescription {
   padding: 1em;
   margin: 1% auto 5% 0;
   height: auto;
-  background-color: #6A8EAE;
+  border-radius: 0.2em;
+  background-color: #121212;
 }
 .App #buttonsLanguage, body #buttonsLanguage {
   text-align: center;
 }
 .App #buttonsLanguage button, body #buttonsLanguage button {
-  background-color: #D1FAFF;
+  background-color: #6A8EAE;
   border-radius: 4px;
   border: none;
   margin: 0.6em;
-  color: #6A8EAE;
+  color: #121212;
   transition: 0.4s;
 }
 .App #buttonsLanguage button:hover, body #buttonsLanguage button:hover {
@@ -59,13 +55,33 @@ button {
 }
 
 nav {
-  background-color: #157145;
+  background-color: #121212;
+  padding: 0.3em;
+  text-align: end;
+}
+nav #titleCurriculum {
+  float: left;
+  color: #6A8EAE;
+  padding: 0.3em;
 }
 nav .link {
-  color: #D1FAFF;
+  color: #57A773;
+  margin: 0.5em;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.4em;
+  padding: 0.4em;
+  transition: 0.1s;
+}
+nav .link:hover {
+  border-top: 2px solid #157145;
+  border-bottom: 2px solid #157145;
+  color: #157145;
 }
 nav .active {
-  color: #57A773;
+  color: #157145;
+  border-top: 2px solid #157145;
+  border-bottom: 2px solid #157145;
 }
 
 /*# sourceMappingURL=app.css.map */
