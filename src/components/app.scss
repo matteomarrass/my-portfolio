@@ -150,10 +150,12 @@ nav {
     }
     .cardTitle {
         color: $black;
-        font-style: italic;
         text-align: center;
         padding: .5em;
         border-radius: .2em;        
+        letter-spacing: .1em;
+        font-size: 30px;
+        font-family: $serif;
     }
 
     ul{
@@ -161,7 +163,7 @@ nav {
     }
     p, li{
         color: $black;
-        font-style: italic;
+        letter-spacing: .1em;
         font-size: 1.3em;
     }
 }
@@ -211,6 +213,8 @@ nav {
             background-color: $fifthColour;
             color: white;
             box-shadow: 5px 10px $black;
-
+            border: 1px solid $black;
         }
 }
+
+//JobsPage

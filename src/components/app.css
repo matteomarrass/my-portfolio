@@ -140,17 +140,19 @@ nav .active {
 }
 .cardSection .cardTitle {
   color: #121212;
-  font-style: italic;
   text-align: center;
   padding: 0.5em;
   border-radius: 0.2em;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+  font-family: "PT Serif", serif;
 }
 .cardSection ul {
   padding: 1em;
 }
 .cardSection p, .cardSection li {
   color: #121212;
-  font-style: italic;
+  letter-spacing: 0.1em;
   font-size: 1.3em;
 }
 
@@ -196,6 +198,7 @@ nav .active {
   background-color: #157145;
   color: white;
   box-shadow: 5px 10px #121212;
+  border: 1px solid #121212;
 }
 
 /*# sourceMappingURL=app.css.map */
