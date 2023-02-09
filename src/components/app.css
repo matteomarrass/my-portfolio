@@ -202,18 +202,18 @@ nav .active {
 }
 
 #job {
-  background-color: #fff;
+  background-color: #121212;
 }
 #job .cardsJob {
   display: flex;
 }
 #job .titleJobs {
-  color: #fff;
   font-size: 40px;
   letter-spacing: 0.1em;
   margin: 0 auto;
   padding: 0.6em;
   text-align: center;
+  color: #fff;
 }
 #job .cardJob {
   margin: 0 6em 0 6em;
@@ -229,6 +229,32 @@ nav .active {
 #job .cardJob:hover {
   border: 3px solid #121212;
   border-bottom: none;
+  font-size: 20px;
+}
+
+#studyPage {
+  background-color: #121212;
+}
+#studyPage .titleStudy {
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  margin: 0 auto;
+  padding: 0.6em;
+  text-align: center;
+  color: #fff;
+}
+#studyPage .cardStudy {
+  margin: 1em;
+  text-align: center;
+  font-size: 15px;
+  background-color: #57A773;
+  padding: 1em;
+  transition: 0.1s;
+}
+#studyPage .cardStudy p {
+  color: #fff;
+}
+#studyPage .cardStudy:hover {
   font-size: 20px;
 }
 

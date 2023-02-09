@@ -8,7 +8,7 @@ const Jobs = () => {
         <>
         <Navbar />
         <section id="job">
-          <h1 className="titleJobs">Esperienze di lavoro principali</h1>
+          <h1 className="titleJobs">Esperienze di lavoro principali 💼</h1>
           <CardJob/>
         </section>
         </>

@@ -19,16 +19,16 @@ const HomepageIT = () => {
           </div>
         <section className="cardSection">          
           <div className="card">
-            <h2 className="cardTitle">Dati Anagrafici</h2>
+            <h2 className="cardTitle">Dati Anagrafici 🧾</h2>
             <p>Nome: Matteo <br /> Cognome: Marras <br /> Data di Nascita: 26/12/1998 <br /> Indirizzo: Via Adua 19, Dualchi (NU) <br /> Cellulare: +393285844893 <br />Email: marrasmatteo0@gmail.com</p>
           </div>
           <div className="card">
-            <h2 className="cardTitle">Obiettivo</h2>
+            <h2 className="cardTitle">Obiettivo 🎯</h2>
             <p>Sono un aspirante Front End Web developer alla ricerca della mia prima esperienza da dipendente sul campo.</p>
             <p>Il mio obiettivo è creare delle pagine web ed esperienze utente che siano fresche, d'impatto e che trasmettano positività al mondo.</p>
           </div>
           <div className="card">
-            <h2 className="cardTitle">Hard Skills</h2>
+            <h2 className="cardTitle">Hard Skills 🧠</h2>
             <ul>
               <li>Problem Solving</li> 
               <li>Abilità nel programmare</li>
@@ -38,7 +38,7 @@ const HomepageIT = () => {
 
           </div>
           <div className="card">
-            <h2 className="cardTitle">Soft Skills</h2>
+            <h2 className="cardTitle">Soft Skills 🧠</h2>
             <ul>
               <li>Capacità d'insegnamento</li>
               <li>Apprendimento rapido</li> 
