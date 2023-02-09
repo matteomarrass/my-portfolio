@@ -279,7 +279,7 @@ nav .active {
   font-size: 15px;
   background-color: #D1FAFF;
   padding: 1em;
-  border: 1px solid #121212;
+  border-radius: 0.4em;
 }
 .cardsProject .cardProject p {
   color: #121212;
@@ -317,6 +317,7 @@ nav .active {
   border: none;
   text-decoration: none;
   transition: 0.4s;
+  color: #121212;
 }
 #error #backHome:hover {
   background-color: #121212;

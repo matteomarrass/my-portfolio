@@ -297,7 +297,7 @@ nav {
         font-size: 15px;
         background-color: $firstColor;
         padding: 1em;
-        border: 1px solid $black;
+        border-radius: .4em;
         p {
             color: $black;
         }
@@ -336,6 +336,7 @@ nav {
         border: none;
         text-decoration: none;
         transition: .4s;
+        color: $black;
     }
     #backHome:hover{
         background-color: $black;
