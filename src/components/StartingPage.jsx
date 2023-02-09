@@ -13,7 +13,7 @@ function StartingPage() {
           <p>Prima di iniziare, selezioni quì la sua lingua preferita.</p>
           <div id='buttonsLanguage'>
           <Link to='homeit'><button className='buttonsLanguage'>Italiano 🇮🇹</button></Link>
-          <Link to='homeeng'><button id='buttonEnglish'>English 🇬🇧</button></Link>
+          <Link to='homeeeng'><button id='buttonEnglish'>English 🇬🇧</button></Link>
           </div>
         </div>
       </header>

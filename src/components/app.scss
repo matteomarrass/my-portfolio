@@ -309,7 +309,7 @@ nav {
             text-decoration: none;
             color: $firstColor;
         }
-        button{
+        button, #backHome{
             background-color: $fourthColour;
             padding: .4em;
             margin: .4em;
@@ -321,5 +321,24 @@ nav {
             background-color: $black;
             color: white;
         }
+    }
+}
+
+//Error404
+#error{
+    background-color: #fff;
+    padding: 2em;
+    #backHome{
+        background-color: $fourthColour;
+        padding: .4em;
+        margin: .4em;
+        border-radius: .4em;
+        border: none;
+        text-decoration: none;
+        transition: .4s;
+    }
+    #backHome:hover{
+        background-color: $black;
+        color: white;
     }
 }
