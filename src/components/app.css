@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: 2em;
   font-family: "PT Serif", serif;
-  color: #D1FAFF;
+  color: #121212;
   font-weight: 500;
 }
 
@@ -199,6 +199,27 @@ nav .active {
   color: white;
   box-shadow: 5px 10px #121212;
   border: 1px solid #121212;
+}
+
+#job {
+  background-color: #fff;
+}
+#job .titleJobs {
+  color: #121212;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  margin: 0 auto;
+  padding: 0.6em;
+  text-align: center;
+}
+#job .cardJob {
+  margin: 0 6em 0 6em;
+  text-align: center;
+  font-size: 20px;
+  background-color: #57A773;
+}
+#job .cardJob p {
+  color: #fff;
 }
 
 /*# sourceMappingURL=app.css.map */

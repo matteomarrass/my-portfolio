@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
     font-size: 2em;
     font-family: $serif;
-    color: $firstColor;
+    color: $black;
     font-weight: 500;
 }
 
@@ -218,3 +218,23 @@ nav {
 }
 
 //JobsPage
+#job {
+    background-color: #fff;
+    .titleJobs{
+        color: $black;
+        font-size: 40px;
+        letter-spacing: .1em;
+        margin: 0 auto;
+        padding: .6em;
+        text-align: center;
+    }
+    .cardJob{
+        margin: 0 6em 0 6em;
+        text-align: center;
+        font-size: 20px;
+        background-color: $fourthColour;
+        p {
+            color: #fff;
+        }
+    }
+}

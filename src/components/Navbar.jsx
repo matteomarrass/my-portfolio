@@ -10,7 +10,8 @@ function Navbar(){
                 <NavLink to='/' className='link'>Cambia Lingua</NavLink>
                 <NavLink to='/homeit' className='link'>Panoramica</NavLink>
                 <NavLink to='/jobs' className='link'>Esperienze Lavorative</NavLink>
-                <NavLink to='/projects' className='link'>Progetti</NavLink>
+                <NavLink to='/studies' className='link'>Istruzione</NavLink>
+                <NavLink to='/study' className='link'>Progetti</NavLink>
             </ul>
         </nav>
     );
