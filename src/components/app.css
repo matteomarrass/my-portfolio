@@ -16,7 +16,7 @@ button {
 }
 
 .App, body {
-  background-color: #57A773;
+  background-color: #157145;
 }
 .App .App-header, body .App-header {
   display: flex;
@@ -34,6 +34,9 @@ button {
   height: auto;
   border-radius: 0.2em;
   background-color: #121212;
+}
+.App .firstDescription h1, .App .firstDescription p, body .firstDescription h1, body .firstDescription p {
+  color: #fff;
 }
 .App #buttonsLanguage, body #buttonsLanguage {
   text-align: center;
@@ -104,7 +107,7 @@ nav .active {
   overflow: hidden;
   white-space: nowrap;
   border-right: 0.1em solid #157145;
-  animation: typing 1.5s steps(40, end), blink 0.75s step-end infinite;
+  animation: typing 4s steps(40, end), blink 0.75s step-end infinite;
 }
 @keyframes typing {
   from {
@@ -256,6 +259,50 @@ nav .active {
 }
 #studyPage .cardStudy:hover {
   font-size: 20px;
+}
+
+.cardsProject {
+  display: flex;
+  justify-content: space-around;
+}
+.cardsProject .titleProject {
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  margin: 0 auto;
+  padding: 0.6em;
+  text-align: center;
+  color: #121212;
+}
+.cardsProject .cardProject {
+  margin: 1em;
+  text-align: center;
+  font-size: 15px;
+  background-color: #D1FAFF;
+  padding: 1em;
+  border: 1px solid #121212;
+}
+.cardsProject .cardProject p {
+  color: #121212;
+}
+.cardsProject .cardProject img {
+  width: 40%;
+  height: auto;
+}
+.cardsProject .cardProject a {
+  text-decoration: none;
+  color: #D1FAFF;
+}
+.cardsProject .cardProject button {
+  background-color: #57A773;
+  padding: 0.4em;
+  margin: 0.4em;
+  border-radius: 0.4em;
+  border: none;
+  transition: 0.4s;
+}
+.cardsProject .cardProject button:hover {
+  background-color: #121212;
+  color: white;
 }
 
 /*# sourceMappingURL=app.css.map */
