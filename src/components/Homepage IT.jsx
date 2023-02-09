@@ -80,6 +80,7 @@ const HomepageIT = () => {
         <h1 className="titlePassion">Ora ho la sua attenzione vero? <br />Vorrebbe saperne di più?</h1>
         <div className="buttonsEnd">
           <Link to='../jobs' className="buttonFooter">Esperienze lavorative</Link>
+          <Link to='../studies' className="buttonFooter">Istruzione</Link>        
           <Link to='../projects' className="buttonFooter">Progetti</Link>        
         </div>
         </section>
