@@ -1,5 +1,5 @@
 import './app.css';
-import {codecademy, ipsia} from './Lists'
+import {codecademy, ipsia, lingue} from './Lists'
 
 const CardStudy = () => {
     return(
@@ -15,6 +15,12 @@ const CardStudy = () => {
                 <p>{ipsia.period}</p>
                 <p>{ipsia.place}</p>
                 <p>{ipsia.whatIdid}</p>
+            </div>
+            <div className='cardStudy'>
+                <h1 className='titleStudy'>{lingue.study}</h1>
+                <p>{lingue.period}</p>
+                <p>{lingue.place}</p>
+                <p>{lingue.whatIdid}</p>
             </div>
         </section>
     )
