@@ -343,3 +343,114 @@ nav {
         color: white;
     }
 }
+
+//Media queries
+
+
+
+
+@media (min-width: 720px) and (max-width: 1750px) { 
+    .secondProfile {
+        display: block;
+        text-align: center;
+        #title{
+            font-size: 67px;
+        }
+    }
+ }
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    nav {
+        font-size: 14px;
+        #titleCurriculum{
+            display: none;
+        }
+    }
+    .App .App-header, body .App-header {
+        display: block;
+        margin: 0 auto;
+      }
+      .App .firstDescription, body .firstDescription{
+        margin: 0 auto;
+      }
+    .secondProfile {
+        display: block;
+        #title{
+            font-size: 45px;
+        }
+    }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .buttonFooter{
+        box-shadow: 5px 10px $black;
+        border: 5px solid $black;
+    }
+    #job .cardsJob {
+        display: block;
+    }
+    .cardsProject {
+        display: block;
+      }
+ }
+
+@media (min-width: 320px) and (max-width: 719px) {
+    #titleCurriculum{
+        display: none;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .App .App-logo, body .App-logo {
+        width: 100%;
+        height: auto;
+        border-radius: 0.2em;
+        background-color: #6A8EAE;
+      }
+      .App .App-header, body .App-header {
+        display: block;
+        margin: 0 auto;
+      }
+    .cardSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .secondProfile{
+        display: block;
+        img{
+            width: 100%;
+            height: auto;
+        }
+        #title{
+            font-size: 23px;
+        }
+    }
+    .passions .titlePassion{
+        font-size: 50px;
+    }
+    .buttonsEnd{
+        display: flex;
+        flex-direction: column;
+        .buttonFooter{
+            border: 5px solid $black;
+            margin: 5%;
+            background-color: $fifthColour;
+            color: #fff;
+        }
+    }
+    #job{
+        .cardsJob {
+            display: flex;
+            flex-direction: column;
+          }
+          .titleJobs{
+            font-size: 20px;
+        }
+    }
+    .cardsProject{
+        flex-direction: column;
+    }
+}

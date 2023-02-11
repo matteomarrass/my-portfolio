@@ -324,4 +324,106 @@ nav .active {
   color: white;
 }
 
+@media (min-width: 720px) and (max-width: 1750px) {
+  .secondProfile {
+    display: block;
+    text-align: center;
+  }
+  .secondProfile #title {
+    font-size: 67px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  nav {
+    font-size: 14px;
+  }
+  nav #titleCurriculum {
+    display: none;
+  }
+  .App .App-header, body .App-header {
+    display: block;
+    margin: 0 auto;
+  }
+  .App .firstDescription, body .firstDescription {
+    margin: 0 auto;
+  }
+  .secondProfile {
+    display: block;
+  }
+  .secondProfile #title {
+    font-size: 45px;
+  }
+  .cardSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttonFooter {
+    box-shadow: 5px 10px #121212;
+    border: 5px solid #121212;
+  }
+  #job .cardsJob {
+    display: block;
+  }
+  .cardsProject {
+    display: block;
+  }
+}
+@media (min-width: 320px) and (max-width: 719px) {
+  #titleCurriculum {
+    display: none;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .App .App-logo, body .App-logo {
+    width: 100%;
+    height: auto;
+    border-radius: 0.2em;
+    background-color: #6A8EAE;
+  }
+  .App .App-header, body .App-header {
+    display: block;
+    margin: 0 auto;
+  }
+  .cardSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .secondProfile {
+    display: block;
+  }
+  .secondProfile img {
+    width: 100%;
+    height: auto;
+  }
+  .secondProfile #title {
+    font-size: 23px;
+  }
+  .passions .titlePassion {
+    font-size: 50px;
+  }
+  .buttonsEnd {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonsEnd .buttonFooter {
+    border: 5px solid #121212;
+    margin: 5%;
+    background-color: #157145;
+    color: #fff;
+  }
+  #job .cardsJob {
+    display: flex;
+    flex-direction: column;
+  }
+  #job .titleJobs {
+    font-size: 20px;
+  }
+  .cardsProject {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
