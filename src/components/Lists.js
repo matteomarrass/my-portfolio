@@ -24,5 +24,6 @@ const codecademy = new Studies('Corso di Codecademy Front-End Developer 🧑‍�
 const ipsia = new Studies('Diploma di IPSIA manutentore elettrico-elettronico 👨‍🏭', 'Settembre 2012 - Giugno 2017', 'IPSIA E.Amaldi Macomer', `Studio generico teorico e pratico di elettonica e dei suoi componenti, insieme ad impianti elettrici civili e industriali.`)
 const lingue = new Studies('Livello di lingue 🗺️', '🇮🇹: Madrelingua', '🇬🇧: B2 (Livello certificato IELTS)', '🇪🇸: B2 (livello conversazionale)')
 const curriculum = new Project('Curriculum', 'Vorrebbe vedere il mio curriculum più da vicino? La sua progettazione di base e come è stato fatto il coding? Prego, entri quì!')
+const bedAndBreak = new Project('Bed&Breakfast I Bastioni', 'Progetto riguardante il B&B I Bastioni, localizzato nella bellissima città di Alghero.')
 
-export {developer, factory, codecademy, ipsia, lingue, curriculum};
+export {developer, factory, codecademy, ipsia, lingue, curriculum, bedAndBreak};
