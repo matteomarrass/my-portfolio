@@ -2,7 +2,7 @@
 
 Ciao a tutti, questo è il mio portfolio, dove raccolgo le mie esperienze (professionali e non), competenze e passioni!
 
-*VEDI QUÌ L'ANTEPRIMA!* https://eloquent-banoffee-60b140.netlify.app/
+*VEDI QUÌ L'ANTEPRIMA!* [Curriculum Matteo Marras](https://eloquent-banoffee-60b140.netlify.app/)
 Verrà utilizzato principalmente per propormi ai colloqui di lavoro in modo da poter ottenere uno stage per poter iniziare la mia carriera!
 Si dividerà in 4 sezioni:
 * Panoramica di base: farò una mia breve descrizione dove indicherò le mie competenze, qualche dato su di me e le mie passioni in maniera sintattica e semplice.
@@ -48,7 +48,7 @@ SOFTWARE.
 # My Portfolio (ENG)
 
 Hi there, that's my resume, where I collect my personal experiences (professionals and not), skills and passions!
-*CHECK HERE THE PREVIEW!* https://eloquent-banoffee-60b140.netlify.app/
+*CHECK HERE THE PREVIEW!* [Resume Matteo Marras](https://eloquent-banoffee-60b140.netlify.app/)
 It will be used to propose me in job interviews to obtain an internship to start my carreer!
 It will be divided in 4 sections:
 * Basic panoramic: short description about myself. There you can find my skills, informations about me and my passions in a brief and simple way.
