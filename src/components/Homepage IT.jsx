@@ -54,7 +54,7 @@ const HomepageIT = () => {
         {/*UpPoints and Down*/}
         <section className="passions">
           <h1 className="titlePassion">Ma c'è dell'altro!</h1>
-          <h1 className="titlePassion">Ho anche delle passioni!</h1>
+          <h1 className="titlePassion">Ho anche altre passioni!</h1>
           {/*Card Passions*/}
           <section className="cardSection">          
           <div className="card">
