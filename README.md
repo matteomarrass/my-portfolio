@@ -47,7 +47,7 @@ SOFTWARE.
 
 # My Portfolio (ENG)
 
-Hi there, that's my resume, where I collect my personal experiences (professionals and not), skills and passions!
+Hi there, that's my resume, where I collect my personal experiences (professionals and not), skills and passions!  
 *CHECK HERE THE PREVIEW!* [Resume Matteo Marras](https://eloquent-banoffee-60b140.netlify.app/)  
 It will be used to propose me in job interviews to obtain an internship to start my carreer!
 It will be divided in 4 sections:
