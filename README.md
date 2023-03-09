@@ -2,7 +2,7 @@
 
 Ciao a tutti, questo è il mio portfolio, dove raccolgo le mie esperienze (professionali e non), competenze e passioni!
 
-*VEDI QUÌ L'ANTEPRIMA!* [Curriculum Matteo Marras](https://eloquent-banoffee-60b140.netlify.app/)  
+*VEDI QUÌ L'ANTEPRIMA!*  [Curriculum Matteo Marras](https://eloquent-banoffee-60b140.netlify.app/)  
 Verrà utilizzato principalmente per propormi ai colloqui di lavoro in modo da poter ottenere uno stage per poter iniziare la mia carriera!
 Si dividerà in 4 sezioni:
 * Panoramica di base: farò una mia breve descrizione dove indicherò le mie competenze, qualche dato su di me e le mie passioni in maniera sintattica e semplice.
